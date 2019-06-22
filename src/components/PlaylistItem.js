@@ -1,9 +1,11 @@
 import React from 'react';
 import StyledPlaylistItem from './styles/StyledPlaylistItem'
 
-const PlaylistItem = props => (
-    <StyledPlaylistItem>
-        PlaylistItem!!!
+const PlaylistItem = ({ video, active, played }) => (
+    <StyledPlaylistItem active={active} played={played}>
+        <div></div>
+        <div></div>
+        <div></div>
     </StyledPlaylistItem>
 
 )
